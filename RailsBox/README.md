@@ -8,7 +8,7 @@ If you have never used vagrant you will need to follow the instuctions on the [s
 1. Create a new director `mkdir myproject`
 2. cd into myproject `cd myproject/`
 3. Grab the Vagrantfile from here.
-4. [Download the precise64rails.box](https://www.dropbox.com/s/bhxhp2vape52p0h/precise64rails.box) and add it `vagrant box add precise64rails.box precise64rails.box`
+4. [Download the precise64rails.box](https://www.dropbox.com/s/bhxhp2vape52p0h/precise64rails.box) (it's large ~600mb) and add it `vagrant box add precise64rails.box precise64rails.box`
 5. Run your dev environment `vagrant up`
 6. `vagrant ssh` to get into your box. 
 and you're ready to go now 
